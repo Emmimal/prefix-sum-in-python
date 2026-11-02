@@ -1,0 +1,17 @@
+[project]
+name = "prefix-sum-in-python"
+version = "1.0.0"
+description = "Tested prefix sum toolkit from the EmiTechLogic tutorial: range queries, subarray sums, 2D regions, NumPy."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy"]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["."]
